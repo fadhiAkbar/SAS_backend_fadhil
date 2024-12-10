@@ -7,7 +7,7 @@ Content-Type: application/json
     "madeIn":"Madiun"
 }
 ###
-DELETE http://localhost:6000/products/63c16a8124a11fc0dc1a5915
+DELETE http://localhost:6000/products/67580c7c27b986a0bc81a533
 ###
 
 PATCH http://localhost:6000/products/63c16b0f24a11fc0dc1a591a
@@ -16,3 +16,6 @@ Content-Type: application/json
 {
     "madeIn":"Semarang"
 }
+
+###
+GET http://localhost:6000/products
